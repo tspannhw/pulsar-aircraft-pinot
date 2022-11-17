@@ -2,10 +2,11 @@
 
 Apache Pulsar to Apache Pinot for ADS-B / Aircraft Data
 
-### Create Pinot Table
+### Create Pinot Schema
 
 ````
-CREATE TABLE public.aircraft (
+aircraft 
+
   alt_baro INT,
   alt_geom INT,
   baro_rate INT,
@@ -37,7 +38,7 @@ CREATE TABLE public.aircraft (
   squawk INT,
   track FLOAT,
   version INT
-  );
+ 
   
 
 ````
@@ -153,6 +154,7 @@ CREATE TABLE `pulsar`.`public/default`.`aircraft` (
 * https://github.com/startreedata/pinot-recipes/tree/main/recipes/pulsar
 * https://docs.pinot.apache.org/basics/getting-started
 * https://docs.pinot.apache.org/basics/components/exploring-pinot
+* https://github.com/apache/pinot/blob/master/pinot-tools/src/main/resources/examples/stream/airlineStats/airlineStats_schema.json
 
 ### Code References
 
