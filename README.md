@@ -147,7 +147,13 @@ CREATE TABLE `pulsar`.`public/default`.`aircraft` (
 
 ````
 
-### References
+### Apache Pinot References
+
+* https://dev.startree.ai/docs/pinot/recipes/pulsar
+* https://github.com/startreedata/pinot-recipes/tree/main/recipes/pulsar
+
+
+### Code References
 
 * https://github.com/tspannhw/pulsar-adsb-function
 * https://github.com/tspannhw/FLiP-Py-ADS-B
