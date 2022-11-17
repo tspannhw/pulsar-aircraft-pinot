@@ -151,7 +151,7 @@ CREATE TABLE `pulsar`.`public/default`.`aircraft` (
 
 * https://dev.startree.ai/docs/pinot/recipes/pulsar
 * https://github.com/startreedata/pinot-recipes/tree/main/recipes/pulsar
-
+* https://docs.pinot.apache.org/basics/getting-started
 
 ### Code References
 
